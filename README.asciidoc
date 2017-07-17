@@ -1,0 +1,31 @@
+Dropwizard Scala Example
+========================
+
+About
+-----
+This is an example Dropwizard app using Scala.
+
+* Dropwizard 1.0.6
+* Scala-2.12.1
+* Java 8
+* Maven 3
+* Guice dependency injection
+* JSON and XML serialization using Java and Scala entities
+* Example resource , health check, filter.
+
+
+Running The App
+---------------
+-----
+mvn clean package
+java -jar target/dropwizard-scala-example.jar server src/main/resources/config.yml
+-----
+
+
+
+
+
+
+
+
+
